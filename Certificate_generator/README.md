@@ -45,6 +45,7 @@ html2canvas + jsPDF – Export certificate as PDF
 
 ---
 
+![Screenshot 2025-08-22 121247]()
 👨‍💻 Author
 
 Developed by [Pragati Agarwal]
