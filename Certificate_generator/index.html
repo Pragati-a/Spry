@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Digital Certificate Generator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">SPRY</a>
+    </div>
+  </nav>
+
+  <!-- Main -->
+  <div class="container my-5">
+    <div class="row g-4">
+      
+      <!-- Form -->
+      <div class="col-lg-5">
+        <div class="card p-4 shadow-sm">
+          <h4 class="mb-3 text-primary">Enter Details</h4>
+          <form id="certForm">
+            <div class="mb-3">
+              <label class="form-label">Recipient Name</label>
+              <input type="text" id="name" class="form-control" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Internship Role</label>
+              <input type="text" id="role" class="form-control" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Duration</label>
+              <input type="text" id="duration" class="form-control" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Intern ID</label>
+              <input type="text" id="certId" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Generate Certificate</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Certificate Preview -->
+      <div class="col-lg-7">
+        <div id="certificate" class="certificate-box">
+          <h2 class="certificate-title">Internship Certificate</h2>
+          <p>This certificate is proudly presented to</p>
+          <h3 id="previewName">[Recipient Name]</h3>
+          <p>for successfully completing internship as</p>
+          <h5 id="previewRole">[Internship Role]</h5>
+          <p>Duration: <strong id="previewDuration">[Duration]</strong></p>
+          <div id="qrcode"></div>
+          <p class="text-secondary mt-2">Intern ID: <strong id="previewCertId">[Unique ID]</strong></p>
+        </div>
+        <button id="downloadBtn" class="btn btn-success mt-3 w-100" style="display:none;">
+          Download Certificate (PDF)
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p class="mb-0">© 2025 CertifyPro - Digital Certificate Management System</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
