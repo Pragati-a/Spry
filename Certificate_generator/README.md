@@ -45,8 +45,8 @@ html2canvas + jsPDF – Export certificate as PDF
 
 ---
 
-![Screenshot 2025-08-22 121247](https://github.com/Pragati-a/Spry/blob/main/Certificate_generator/Screenshot%202025-08-31%20221259.png)
-![Screenshot 2025-08-22 121247]()
+![Screenshot 2025-08-22 121247](https://github.com/Pragati-a/Spry/blob/main/Certificate_generator/Screenshot%202025-08-31%20222620.png)
+![Screenshot 2025-08-22 121247](https://github.com/Pragati-a/Spry/blob/main/Certificate_generator/Screenshot%202025-08-31%20222656.png)
 ---
 
 👨‍💻 Author
