@@ -30,5 +30,6 @@ Bootstrap 5 – Responsive design & components
 
 JavaScript (Vanilla) – Interactivity
 
-![Screenshot 2025-08-22 121247](https://github.com/Pragati-a/Spry/blob/main/Dashboard/WhatsApp%20Image%202025-08-31%20at%2022.42.13_2a5d4294.jpg)
 ![Screenshot 2025-08-22 121247](https://github.com/Pragati-a/Spry/blob/main/Dashboard/WhatsApp%20Image%202025-08-31%20at%2022.42.36_cb584c06.jpg)
+
+![Screenshot 2025-08-22 121247](https://github.com/Pragati-a/Spry/blob/main/Dashboard/WhatsApp%20Image%202025-08-31%20at%2022.42.13_2a5d4294.jpg)
